@@ -12,6 +12,25 @@ _The REQM metric in the test set should not be higher than 48._
 
 The data is stored in the file `taxi.csv`. The number of orders is in the `num_orders` column.
 
+## Libraries used
+import **pandas** as pd
+
+import **numpy** as np
+
+import **matplotlib.pyplot** as plt
+
+from **statsmodels.tsa.seasonal** import **seasonal_decompose**
+
+from **sklearn.model_selection** import **train_test_split**
+
+from **sklearn.metrics** import **mean_squared_error**
+
+from **sklearn.linear_model** import **LinearRegression**
+
+from **sklearn.model_selection** import **cross_val_score**
+
+from **sklearn.model_selection** import **GridSearchCV**
+
 ## Final Conclusion
 
 **Analysis**
