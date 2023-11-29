@@ -51,7 +51,7 @@ from **sklearn.model_selection** import **GridSearchCV**
 # TimeSeries-Taxi
 
 
-**Descrição do projeto
+**Descrição do projeto**
 
 A empresa Sweet Lift Taxi coletou dados históricos sobre solicitações de táxi em aeroportos. Para atrair mais motoristas durante os horários de pico, precisamos prever a quantidade de solicitações de táxi para a próxima hora. 	
 Crie um modelo para essa previsão.
@@ -83,7 +83,7 @@ from **sklearn.model_selection** import **GridSearchCV**
 
 ## Conclusão final
 
-**Análise
+**Análise**
 * O comportamento sazonal de todos os meses permanece estacionário.
 
 
@@ -95,5 +95,5 @@ from **sklearn.model_selection** import **GridSearchCV**
 
 * Os dias da semana mais frequentes com a **maior** atividade de todos os meses são: **Sexta-feira** em primeiro lugar em março, abril, junho, julho e agosto. **Segunda-feira** seguida em abril, maio, julho e agosto.
 
-**Modelo
+**Modelo**
 * O modelo de previsão de solicitações de táxi para a próxima hora teve um desempenho muito bom, com um RMSE de aproximadamente 8,43. Isso significa que nosso modelo tem uma margem de erro de 8,43 solicitações por hora, e nossa meta era inferior a 48, portanto, o desempenho foi excelente.
